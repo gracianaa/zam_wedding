@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { App } from './pages/App';
 import { OurStory } from './pages/OurStory';
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: 'home',
+        path: '',
         element: <HomePage />,
       },
       {

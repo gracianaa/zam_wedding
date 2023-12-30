@@ -5,13 +5,13 @@ import { NavLink } from 'react-router-dom';
 export const Menu = () => {
   return (
     <nav>
-      <NavLink className="heading" to="home">
+      <NavLink className="heading" to="/#home">
         Zuzana & Michal
       </NavLink>
-      <MenuItem text="kedy a kde" />
-      <MenuItem text="harmonogram" />
-      <MenuItem text="potvrď účasť" />
-      <MenuItem text="kontakt" />
+      <MenuItem id="/#kedyAkde" text="kedy a kde" />
+      <MenuItem id="/#harmonogram" text="harmonogram" />
+      <MenuItem id="/#rvsp" text="potvrď účasť" />
+      <MenuItem id="/#kontakt" text="kontakt" />
     </nav>
   );
 };
