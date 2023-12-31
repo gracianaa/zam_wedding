@@ -30,3 +30,11 @@
     font-size: 8rem;
   }
 }
+
+
+.countdown-timer,
+.countdown-text {
+  color: #587977;
+  font-size: 3rem;
+  font-weight: bold;
+}

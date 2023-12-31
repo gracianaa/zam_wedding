@@ -1,4 +1,14 @@
+import dayjs from 'dayjs';
 import './style.css';
+import Countdown from 'react-countdown';
+
+const today = dayjs();
+const weddingDay = dayjs('2024-08-10');
+const countdown = dayjs(weddingDay).diff(dayjs(today), 'second');
+
+const Completionist = () => (
+  <span className="countdown-text">DNES je svadba!</span>
+);
 
 export const Intro = () => {
   return (
@@ -11,7 +21,12 @@ export const Intro = () => {
       </div>
       <div className="countdown">
         <h2>odpočítavanie</h2>
-        <p>100 dní 43 hodín 15minút 06sekúnd</p>
+        <Countdown
+          className="countdown-timer"
+          date={Date.now() + countdown * 1000}
+        >
+          <Completionist />
+        </Countdown>
       </div>
     </section>
   );
