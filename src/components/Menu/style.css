@@ -1,0 +1,42 @@
+.heading-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.heading-text {
+  font-family: 'Tangerine', cursive;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.eucalyptL,
+.eucalyptR {
+  width: 80px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+
+@media screen and (min-width: 700px) {
+  .heading-text {
+    font-size: 70px;
+  }
+
+  .menu-items {
+    gap: 40px;
+  }
+
+  .eucalyptL,
+  .eucalyptR {
+    width: 190px;
+  }
+
+}

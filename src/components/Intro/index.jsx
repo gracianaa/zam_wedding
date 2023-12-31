@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <section>
       <div className="intro">
-        <h1>Budeme sa brať!</h1>
+        <h1 className="intro-heading">Budeme sa brať!</h1>
         <button>Náš príbeh</button>
       </div>
       <div className="countdown">
