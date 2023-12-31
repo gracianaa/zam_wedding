@@ -3,9 +3,11 @@ import './style.css';
 export const Intro = () => {
   return (
     <section>
-      <div className="intro">
-        <h1 className="intro-heading">Budeme sa brať!</h1>
-        <button>Náš príbeh</button>
+      <div className="intro-background">
+        <div className="intro-background__opacity">
+          <h1 className="intro-heading">Budeme sa brať!</h1>
+          <button>Náš príbeh</button>
+        </div>
       </div>
       <div className="countdown">
         <h2>odpočítavanie</h2>
