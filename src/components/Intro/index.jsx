@@ -43,7 +43,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 export const Intro = () => {
   return (
-    <section>
+    <section className="intro">
       <div className="intro-background">
         <div className="intro-background__opacity">
           <h1 className="intro-heading">Budeme sa brať!</h1>
