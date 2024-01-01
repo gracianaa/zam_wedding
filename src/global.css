@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Saira+Condensed:wght@200&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --font-primary: 'Oooh Baby', cursive;
-  --font-secondary: 'Saira Condensed', sans-serif;
+  --font-secondary: 'Saira Extra Condensed', sans-serif;
   --color-primary: #000000;
   --color-secondary: #1f3736;
 }
@@ -14,6 +15,7 @@
 
 html {
   font-family: var(--font-secondary);
+  font-weight: 300;
   text-align: center;
   color: var(--color-primary);
 }
@@ -24,6 +26,11 @@ h1 {
   font-weight: 200;
   color: var(--color-secondary);
   margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 ul {

@@ -10,6 +10,37 @@ const Completionist = () => (
   <span className="countdown-text">DNES je svadba!</span>
 );
 
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  if (completed) {
+    return <Completionist />;
+  } else {
+    return (
+      <div className="countdown-text">
+        <div className="units">
+          <span>{days}</span>
+          <br />
+          <span className="unit">dní</span>
+        </div>
+        <div className="units">
+          <span>{hours}</span>
+          <br />
+          <span className="unit">hodín</span>
+        </div>
+        <div className="units">
+          <span>{minutes}</span>
+          <br />
+          <span className="unit">minút</span>
+        </div>
+        <div className="units">
+          <span>{seconds}</span>
+          <br />
+          <span className="unit">sekúnd</span>
+        </div>
+      </div>
+    );
+  }
+};
+
 export const Intro = () => {
   return (
     <section>
@@ -24,9 +55,8 @@ export const Intro = () => {
         <Countdown
           className="countdown-timer"
           date={Date.now() + countdown * 1000}
-        >
-          <Completionist />
-        </Countdown>
+          renderer={renderer}
+        ></Countdown>
       </div>
     </section>
   );

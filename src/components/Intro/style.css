@@ -38,3 +38,22 @@
   font-size: 3rem;
   font-weight: bold;
 }
+
+.countdown-text {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.unit {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 700px) {
+  .countdown-text {
+    gap: 40px;
+  }
+
+}
