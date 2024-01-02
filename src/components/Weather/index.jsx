@@ -29,7 +29,7 @@ export const Weather = () => {
   return (
     <div className="info-list__body">
       <ul className="info-list info-list__headings">
-        <li>dnešní dátum: </li>
+        <li>dátum dnes: </li>
         <li>maximálna teplota: </li>
         <li>minimálna teplota: </li>
         <li>dážď: </li>

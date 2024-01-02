@@ -13,3 +13,16 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width:700px) {
+  .whenAndWhere__bgOpacity {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+
+  .whenAndWhere__heading {
+    flex-basis: 100%;
+  }
+}

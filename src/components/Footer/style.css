@@ -13,3 +13,30 @@
   align-items: center;
   justify-content: center;
 }
+
+.contact {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list {
+  text-align: left;
+  padding: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__bgOpacity {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .footer__heading,
+  .copyright {
+    flex-basis: 100%;
+  }
+
+
+
+}
