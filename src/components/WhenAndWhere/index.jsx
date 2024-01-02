@@ -1,6 +1,7 @@
 import './style.css';
 import calendar from './calendar.png';
 import weather from './weather.png';
+import { Weather } from '../Weather';
 
 export const WhenAndWhere = () => {
   return (
@@ -9,20 +10,24 @@ export const WhenAndWhere = () => {
         <div className="whenAndWhere__bgOpacity">
           <h2>kedy a kde</h2>
           <img src={calendar} alt="calendar_icon" width="40px" height="40px" />
-          <ul className="info-list">
-            <li>dátum: 10. 08. 2024</li>
-            <li>čas: 14:00</li>
-            <li>sobáš: kostol v Sabinove</li>
-            <li>adresa: Sabinovská 33</li>
-            <li>spolu to oslávime: reštaurácia v Sabinove</li>
-          </ul>
+          <div className="info-list__body">
+            <ul className="info-list info-list__headings">
+              <li>dátum: </li>
+              <li>čas: </li>
+              <li>sobáš: </li>
+              <li>adresa: </li>
+              <li>spolu to oslávime: </li>
+            </ul>
+            <ul className="info-list info-list__detail">
+              <li>10-08-2024</li>
+              <li>14:00</li>
+              <li>kostol v Sabinove</li>
+              <li>Sabinovská 33</li>
+              <li>reštaurácia v Sabinove</li>
+            </ul>
+          </div>
           <img src={weather} alt="weather_icon" width="40px" height="40px" />
-          <ul className="info-list">
-            <li>teplota: 25 C</li>
-            <li>dážď: 0</li>
-            <li>oblačnosť: 20%</li>
-            <li>vietor: 1km/h</li>
-          </ul>
+          <Weather />
         </div>
       </div>
     </section>
