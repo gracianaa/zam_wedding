@@ -1,4 +1,5 @@
 import './style.css';
+import { Button } from '../Button';
 
 export const Rvsp = () => {
   return (
@@ -7,15 +8,15 @@ export const Rvsp = () => {
         <h2>potvrď účasť</h2>
         <form className="rvsp__form">
           <label className="rvsp__label">meno a priezvisko/ rodina:</label>
-          <input className="rvsp__input" type="text" />
+          <input className="rvsp__input-name" type="text" />
 
           <label className="rvsp__label">počet osôb:</label>
-          <input className="rvsp__input" type="number" />
+          <input className="rvsp__input-number" type="number" />
 
           <label className="rvsp__label">poznámka:</label>
-          <input className="rvsp__input" type="text" />
+          <input className="rvsp__input-body" type="text" />
         </form>
-        <button type="submit">odoslať</button>
+        <Button>odoslať</Button>
       </div>
     </section>
   );

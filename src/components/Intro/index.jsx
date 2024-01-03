@@ -1,6 +1,7 @@
 import dayjs from 'dayjs';
 import './style.css';
 import Countdown from 'react-countdown';
+import { Button } from '../Button';
 
 const today = dayjs();
 const weddingDay = dayjs('2024-08-10');
@@ -47,7 +48,9 @@ export const Intro = () => {
       <div className="intro-background">
         <div className="intro-background__opacity">
           <h1 className="intro-heading">Budeme sa brať!</h1>
-          <button>Náš príbeh</button>
+          <Button to={'/ourstory'} type={'primary'}>
+            Náš príbeh
+          </Button>
         </div>
       </div>
       <div className="countdown">

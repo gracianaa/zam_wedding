@@ -16,7 +16,9 @@
   margin-bottom: 25px;
 }
 
-.rvsp__input {
+.rvsp__input-name,
+.rvsp__input-number,
+.rvsp__input-body {
   margin-bottom: 10px;
   border: none;
   border-radius: 10px;
@@ -33,7 +35,9 @@
     justify-self: right;
   }
 
-  .rvsp__input {
+  .rvsp__input-name,
+  .rvsp__input-number,
+  .rvsp__input-body {
     justify-self: left;
     margin: 0;
     padding: 5px;
