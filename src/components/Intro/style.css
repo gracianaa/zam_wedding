@@ -21,7 +21,7 @@
   padding-top: 10px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
   .intro-background {
     aspect-ratio: 2/0.9;
   }
@@ -47,13 +47,17 @@
 
 .unit {
   color: var(--color-primary);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
   .countdown-text {
     gap: 40px;
+  }
+
+  .unit {
+    font-size: 1.5rem;
   }
 
 }

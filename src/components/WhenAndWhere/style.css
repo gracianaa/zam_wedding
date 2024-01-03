@@ -14,7 +14,15 @@
   justify-content: center;
 }
 
-@media screen and (min-width:700px) {
+.info-list__detail li {
+  font-weight: 600;
+}
+
+.info-list__headings li {
+  font-style: italic;
+}
+
+@media screen and (min-width:1200px) {
   .whenAndWhere__bgOpacity {
     flex-direction: row;
     flex-wrap: wrap;

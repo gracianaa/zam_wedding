@@ -2,13 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto
+  margin: 10px auto;
+
 }
+
 
 .heading-text {
   font-family: 'Tangerine', cursive;
   font-size: 35px;
   text-decoration: none;
+  color: var(--color-secondary);
 }
 
 .eucalyptL,
@@ -25,7 +28,7 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
   .heading-text {
     font-size: 70px;
   }

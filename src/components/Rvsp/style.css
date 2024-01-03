@@ -2,10 +2,40 @@
   background-color: #c3d0ce;
 }
 
-form {
+.rvsp_ucast {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.rvsp__form {
+  display: grid;
   gap: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.rvsp__input {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .rvsp__form {
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+  }
+
+  .rvsp__label {
+    justify-self: right;
+  }
+
+  .rvsp__input {
+    justify-self: left;
+    margin: 0;
+    padding: 5px;
+  }
 }
