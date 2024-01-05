@@ -16,6 +16,9 @@ export const WhenAndWhere = () => {
               width="40px"
               height="40px"
             />
+            <h4>
+              <em>miesto, dátum a čas</em>
+            </h4>
             <div className="info-list__body">
               <ul className="info-list info-list__headings">
                 <li>dátum svadby: </li>
@@ -35,6 +38,9 @@ export const WhenAndWhere = () => {
           </div>
           <div className="whenAndWhere__weather">
             <img src={weather} alt="weather_icon" width="40px" height="40px" />
+            <h4>
+              <em>predpoveď počasia v Sabinove</em>
+            </h4>
             <Weather />
           </div>
         </div>

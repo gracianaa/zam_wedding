@@ -44,7 +44,7 @@ ul {
 
 @media screen and (min-width:1200px) {
   html {
-    margin: 0 120px;
+    margin: 0 200px;
     box-shadow: 3px 3px 10px hsla(0, 0%, 23%, 0.301);
   }
 }

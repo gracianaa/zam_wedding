@@ -22,7 +22,7 @@
   font-style: italic;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:800px) {
   .whenAndWhere__bgOpacity {
     flex-direction: row;
     flex-wrap: wrap;

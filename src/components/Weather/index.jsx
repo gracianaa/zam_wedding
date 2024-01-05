@@ -17,7 +17,7 @@ export const Weather = () => {
       setWeather(data);
       console.log(data);
       data.daily.time.map((date, index) => {
-        if (date === dayjs().format('YYYY-MM-DD')) {
+        if (date === '2024-01-10') {
           setTimeId(index);
         }
       });
