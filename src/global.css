@@ -7,6 +7,7 @@
   --font-secondary: 'Saira Extra Condensed', sans-serif;
   --color-primary: #000000;
   --color-secondary: #1f3736;
+  --color-link: #457978;
   --color-background: #f6fffcdd;
 
 }
@@ -40,6 +41,15 @@ h2 {
 
 ul {
   list-style: none;
+}
+
+a {
+  color: var(--color-primary)
+}
+
+a:hover,
+a:focus {
+  color: var(--color-link)
 }
 
 @media screen and (min-width:1200px) {
