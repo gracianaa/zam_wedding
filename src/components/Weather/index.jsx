@@ -27,40 +27,53 @@ export const Weather = () => {
   }, []);
 
   return (
-    <div className="info-list__body">
-      <ul className="info-list info-list__headings">
-        <li>dátum dnes: </li>
-        <li>maximálna teplota: </li>
-        <li>minimálna teplota: </li>
-        <li>dážď: </li>
-        <li>západ slnka: </li>
-      </ul>
-
-      <ul className="info-list info-list__detail">
+    <div className="info-list__body info-list__bodyWeather">
+      <div className="info-list__row">
+        <p className="info-list__headings">dátum: </p>
         {weather && (
-          <li>{dayjs(weather.daily.time[timeId]).format('DD-MM-YYYY')}</li>
+          <p className="info-list__detail">
+            {dayjs(weather.daily.time[timeId]).format('DD-MM-YYYY')}
+          </p>
         )}
+      </div>
+
+      <div className="info-list__row">
+        <p className="info-list__headings">teplota max: </p>
         {weather && (
-          <li>
+          <p className="info-list__detail">
             {weather.daily.temperature_2m_max[timeId]}{' '}
             {weather.daily_units.temperature_2m_max}
-          </li>
+          </p>
         )}
+      </div>
+
+      <div className="info-list__row">
+        <p className="info-list__headings">teplota min: </p>
         {weather && (
-          <li>
+          <p className="info-list__detail">
             {weather.daily.temperature_2m_min[timeId]}{' '}
             {weather.daily_units.temperature_2m_min}
-          </li>
+          </p>
         )}
+      </div>
+
+      <div className="info-list__row">
+        <p className="info-list__headings">dážď: </p>
         {weather && (
-          <li>
+          <p className="info-list__detail">
             {weather.daily.rain_sum[timeId]} {weather.daily_units.rain_sum}
-          </li>
+          </p>
         )}
+      </div>
+
+      <div className="info-list__row">
+        <p className="info-list__headings">západ slnka: </p>
         {weather && (
-          <li>{dayjs(weather.daily.sunset[timeId]).format('HH:mm')}</li>
+          <p className="info-list__detail">
+            {dayjs(weather.daily.sunset[timeId]).format('HH:mm')}
+          </p>
         )}
-      </ul>
+      </div>
     </div>
   );
 };

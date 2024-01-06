@@ -10,8 +10,8 @@ export const HomePage = () => {
     <main className="content">
       <Intro />
       <WhenAndWhere />
-      <Rvsp />
       <Agenda />
+      <Rvsp />
     </main>
   );
 };

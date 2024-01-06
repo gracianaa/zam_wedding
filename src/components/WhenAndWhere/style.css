@@ -1,7 +1,7 @@
 .whenAndWhere__bg {
   background-image: url(bg_eucalypt.png);
   background-size: cover;
-  background-position: left;
+  background-position: top;
 }
 
 .whenAndWhere__bgOpacity {
@@ -12,15 +12,53 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 15px;
 }
 
-.info-list__detail li {
-  font-weight: 600;
+.whenAndWhere__map {
+  flex-basis: 100%;
 }
 
-.info-list__headings li {
+.whenAndWhere__map img {
+  max-width: 100%;
+}
+
+.info-list__body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.whenAndWhere__calendar,
+.whenAndWhere__weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-list__bodyWeather .info-list__row {
+  gap: 100px;
+}
+
+.info-list__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 6px 0;
+}
+
+.info-list__headings {
   font-style: italic;
+  text-align: left;
 }
+
+.info-list__detail {
+  font-weight: 600;
+  text-align: right;
+}
+
 
 @media screen and (min-width:800px) {
   .whenAndWhere__bgOpacity {
@@ -33,4 +71,18 @@
   .whenAndWhere__heading {
     flex-basis: 100%;
   }
+
+  .whenAndWhere__calendar,
+  .whenAndWhere__weather {
+    flex-basis: calc(40% - 80px);
+  }
+
+  .whenAndWhere__map {
+    flex-basis: 100%;
+  }
+
+  .whenAndWhere__map img {
+    max-width: 100%;
+  }
+
 }
