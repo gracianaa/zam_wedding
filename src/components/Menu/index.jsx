@@ -17,7 +17,7 @@ export const Menu = () => {
       <div className="menu-items">
         <MenuItem id="/#kedyAkde" text="kedy a kde" />
         <MenuItem id="/#harmonogram" text="harmonogram" />
-        <MenuItem id="/#rvsp" text="kontakt" />
+        <MenuItem id="/#rvsp" text="napíš nám" />
       </div>
     </nav>
   );
