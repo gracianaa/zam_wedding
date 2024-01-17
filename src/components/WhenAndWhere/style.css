@@ -78,7 +78,10 @@
   }
 
   .whenAndWhere__map {
+    display: flex;
+    justify-content: center;
     flex-basis: 100%;
+    background-color: #d2f8e1;
   }
 
   .whenAndWhere__map img {

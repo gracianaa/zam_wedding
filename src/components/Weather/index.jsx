@@ -5,7 +5,7 @@ import dayjs from 'dayjs';
 
 export const Weather = () => {
   const [weather, setWeather] = useState(null);
-  const [timeId, setTimeId] = useState(null);
+  const [timeId, setTimeId] = useState(0);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,7 +17,7 @@ export const Weather = () => {
       setWeather(data);
       console.log(data);
       data.daily.time.map((date, index) => {
-        if (date === '2024-01-10') {
+        if (date === '2024-08-10') {
           setTimeId(index);
         }
       });
@@ -32,7 +32,7 @@ export const Weather = () => {
         <p className="info-list__headings">dátum: </p>
         {weather && (
           <p className="info-list__detail">
-            {dayjs(weather.daily.time[timeId]).format('DD-MM-YYYY')}
+            {dayjs(weather.daily.time[timeId]).format('DD.MM.YYYY')}
           </p>
         )}
       </div>
