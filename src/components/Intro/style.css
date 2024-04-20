@@ -9,7 +9,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: rgba(249, 255, 252, 0.35);
+  background-color: rgba(249, 255, 252, 0.4);
   flex-direction: column;
   align-items: end;
   justify-content: start;
@@ -23,10 +23,10 @@
   font-weight: 600;
 }
 
-.intro-verse {
+/* .intro-verse {
   background-color: #bfd0e09d;
   margin: 0 25px;
-}
+} */
 
 .intro-verse__text {
   margin: 0;
