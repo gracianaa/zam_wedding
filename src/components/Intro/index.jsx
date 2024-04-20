@@ -50,7 +50,7 @@ export const Intro = () => {
           <h1 className="intro-heading">Budeme sa brať!</h1>
           <div className="intro-verse">
             <h2 className="intro-verse__text">
-              My milujeme, pretože ON prvý miloval nás.
+              My milujeme, lebo ON prvý miloval nás.
             </h2>
             <h2 className="intro-verse__text">1 Jn 4:19</h2>
           </div>
