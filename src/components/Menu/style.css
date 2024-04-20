@@ -2,21 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
-
+  margin: 15px auto;
 }
 
 
 .heading-text {
   font-family: 'Tangerine', cursive;
-  font-size: 35px;
+  font-size: 50px;
   text-decoration: none;
   color: var(--color-secondary);
-}
-
-.eucalyptL,
-.eucalyptR {
-  width: 80px;
 }
 
 .menu-items {

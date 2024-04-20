@@ -8,11 +8,9 @@ export const Menu = () => {
   return (
     <nav className="heading-menu">
       <div className="heading-logo">
-        <img className="eucalyptL" src={eucalypL} alt="eucalyptus-left" />
         <NavLink className="heading-text" to="/#home">
           Zuzana & Michal
         </NavLink>
-        <img className="eucalyptR" src={eucalypR} alt="eucalyptus-right" />
       </div>
       <div className="menu-items">
         <MenuItem id="/#kedyAkde" text="kedy a kde" />
