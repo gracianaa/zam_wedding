@@ -26,3 +26,20 @@
   background-color: var(--color-secondary);
   ;
 }
+
+@media screen and (min-width: 1000px) {
+  .button--primary {
+    width: 150px;
+    font-size: 1.5rem;
+  }
+
+  .button--secondary {
+    width: 200px;
+    font-size: 1.5rem;
+  }
+
+  .intro-btn {
+    padding: 30px;
+    margin: 0 auto;
+  }
+}
