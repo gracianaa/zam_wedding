@@ -55,9 +55,9 @@ export const Intro = () => {
             <h2 className="intro-verse__text">1 Jn 4:19</h2>
           </div>
           <div className="intro-btn">
-            <Button to={'/ourstory'} type={'primary'}>
+            {/* <Button to={'/ourstory'} type={'primary'}>
               Naša láska
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

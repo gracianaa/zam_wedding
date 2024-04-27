@@ -27,6 +27,10 @@
   width: 300px;
 }
 
+.cgf__form {
+  padding: 0 20px;
+}
+
 button.cgf__btn {
   border: none !important;
   padding: 5px 20px !important;
@@ -38,6 +42,8 @@ button.cgf__btn {
   text-decoration: none !important;
   transition: transform 0.2s !important;
   display: inline-block !important;
+  background-color: var(--color-secondary) !important;
+  margin: 0 auto !important;
 }
 
 
@@ -51,7 +57,7 @@ button.cgf__btn:active {
   .rvsp {
     background-image: url(zam_wed.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
   }
 
   .rvsp__bgOpacity {
