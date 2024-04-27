@@ -1,5 +1,6 @@
 .rvsp {
-  background-color: #c3d0ce;
+  background-color: #0c605e15;
+  ;
 }
 
 .rvsp__ucast {
@@ -63,7 +64,7 @@ button.cgf__btn:active {
   .rvsp__bgOpacity {
     width: 100%;
     height: 100%;
-    background-color: #c3d0ce7a;
+    background-color: #c3d0ce38;
   }
 
   .rvsp__ucast {

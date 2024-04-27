@@ -1,12 +1,12 @@
 .whenAndWhere__bg {
-  background-color: #64878d13;
+  background-color: #0c605e15;
   background-size: cover;
   background-position: top;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 40px;
 }
 
 .whenAndWhere__map {
@@ -15,12 +15,14 @@
 
 .whenAndWhere__map img {
   max-width: 100%;
+  display: block;
 }
 
 .info-list__body {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  font-size: 1.1rem;
 }
 
 .whenAndWhere__calendar,
@@ -53,6 +55,11 @@
   text-align: right;
 }
 
+.calendar__title,
+.weather__title {
+  font-size: 1.2rem;
+}
+
 
 @media screen and (min-width:800px) {
   .whenAndWhere__bg {
@@ -80,11 +87,6 @@
 
   .whenAndWhere__map img {
     max-width: 100%;
-  }
-
-  .calendar__title,
-  .weather__title {
-    font-size: 1.2rem;
   }
 
 

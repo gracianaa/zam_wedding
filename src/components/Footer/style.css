@@ -1,13 +1,6 @@
 .footer {
-  background-color: #64878d13;
   background-size: cover;
   background-position: right;
-}
-
-.footer__bgOpacity {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(249, 255, 252, 0.8);
 }
 
 .copyright {

@@ -11,14 +11,14 @@ export const WhenAndWhere = () => {
       <div id="kedyAkde" className="whenAndWhere__bg">
         <h2 className="whenAndWhere__heading">kedy a kde</h2>
         <div className="whenAndWhere__calendar">
-          <img src={calendar} alt="calendar_icon" width="40px" height="40px" />
+          <img src={calendar} alt="calendar_icon" width="50px" height="50px" />
           <h4 className="calendar__title">
             <em>miesto, dátum a čas</em>
           </h4>
           <Calendar />
         </div>
         <div className="whenAndWhere__weather">
-          <img src={weather} alt="weather_icon" width="40px" height="40px" />
+          <img src={weather} alt="weather_icon" width="50px" height="50px" />
           <h4 className="weather__title">
             <em>predpoveď počasia v Sabinove</em>
           </h4>
