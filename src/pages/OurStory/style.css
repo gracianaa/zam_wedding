@@ -1,32 +1,30 @@
-.ourStory-background {
-  background-image: url(zam_foto.jpg);
-  aspect-ratio: 1.2/0.7;
-  background-size: cover;
-  background-position: top;
-}
-
-.ourStory-background__opacity {
-  width: 100%;
+.ourStory {
+  background-color: #0c605e15;
   height: 100%;
-  display: flex;
-  background-color: rgba(249, 255, 252, 0.6);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
 }
 
 .ourStory-heading {
   font-size: 3rem;
-  padding-top: 10px;
+  padding: 10px;
+}
+
+.ourStory__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 30px auto;
 }
 
 @media screen and (min-width: 1200px) {
-  .ourStory-background {
-    aspect-ratio: 2/0.9;
-  }
 
   .ourStory-heading {
     font-size: 8rem;
+  }
+
+  .ourStory__video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
