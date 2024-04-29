@@ -24,7 +24,7 @@ export const Calendar = () => {
 
       <div className="info-list__row">
         <p className="info-list info-list__headings">čas: </p>
-        <p className="info-list info-list__detail">14:00</p>
+        <p className="info-list info-list__detail">16:00</p>
       </div>
 
       <div className="info-list__row">
