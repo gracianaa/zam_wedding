@@ -66,6 +66,10 @@
   .intro-btn {
     padding: 100px;
   }
+
+  .intro-btn a {
+    font-size: 1.2rem;
+  }
 }
 
 
