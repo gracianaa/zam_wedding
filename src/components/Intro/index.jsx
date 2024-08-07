@@ -58,6 +58,8 @@ export const Intro = () => {
             <div className="intro-btn">
               <Button to={'/ourstory'} type={'primary'}>
                 Naša láska
+                <br />
+                (klik sem)
               </Button>
             </div>
           </div>

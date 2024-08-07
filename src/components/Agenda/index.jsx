@@ -9,7 +9,6 @@ export const Agenda = () => {
         <div className="agenda__img">
           <img src={agenda} alt="agenda" />
         </div>
-        <p>*presné časy daného harmonogramu budú ešte aktualizované</p>
       </div>
     </section>
   );

@@ -39,7 +39,11 @@
 }
 
 .intro-btn {
-  padding: 30px;
+  padding: 10px;
+}
+
+.intro-btn a {
+  font-size: 0.8rem;
 }
 
 
